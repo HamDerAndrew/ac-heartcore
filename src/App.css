@@ -1,0 +1,31 @@
+/*General styling*/
+h1,h2,h3,h4,h5,p,li {
+  color: white;
+}
+
+.App {
+  /* background-color: #B4A68F; */
+  /*background-color: #282c34;*/
+  /* background: rgb(253,230,138);
+  background: linear-gradient(180deg, rgba(253,230,138,1) 0%, rgba(255,247,215,1) 100%); */
+  min-height: 100vh;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
